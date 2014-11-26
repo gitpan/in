@@ -1,0 +1,29 @@
+---
+abstract: 'provides the in operator as a replacement for smartmatch'
+author:
+  - 'Naveed Massjouni <naveed@vt.edu>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+  perl: 5.006
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: in
+requires:
+  Exporter: 0
+  Sub::Infix: 0
+  match::simple: 0.009
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: https://github.com/ironcamel/in/issues
+  repository: git://github.com/ironcamel/in.git
+version: 0.0001
